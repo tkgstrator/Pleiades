@@ -36,7 +36,7 @@
           <a href="https://www.paypal.me/salmonia">PayPalで応援する</a>
         </li>
         <li>
-          <a href="/donate">Amazonギフト券で応援する</a>
+          <router-link to="/donate">アマゾンギフト券で応援する</router-link>
         </li>
         <li>
           <a href="https://www.amazon.co.jp/hz/wishlist/ls/1OVWKJ7C5R9XK">ほしいものリストから何か送る</a>

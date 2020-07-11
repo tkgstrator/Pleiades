@@ -67,6 +67,12 @@
       </h1>
       <p>局面ジェネレーターを改良してSFEN形式の棋譜を読み込んでブラウザ上で動かせるウェブサイトです. GitHub上でデモがみれます.</p>
     </div>
+    <div class="contents">
+      <h1>
+        <a href="https://tkgstrator.github.io/ShogiBoard/#/">リアルタイム将棋盤</a>
+      </h1>
+      <p>リアルタイムで友人と将棋が指せるオンラインの将棋盤です.対局がメイン機能ではないので時間制限がなく待った機能もあるので指導将棋にどうぞ.</p>
+    </div>
   </v-container>
 </template>
 
