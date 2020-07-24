@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LanPlayGUI.exe" version="1.0.0.0" publicKeyToken="d891d82611b7cfde" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LanPlayGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="LanPlayGUI.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+          Windows のユーザー アカウント制御のレベルを変更するには、
+          requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+         requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LanPlayGUI.exe" size="11760">
+      <assemblyIdentity name="LanPlayGUI" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>oZYPtKH98ZhnpE+XmV4h17wvRU45MLPRlAEkWvdC734=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="LanPlayGUI.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-SCT3V3K\devonly" issuerKeyHash="293a009475f7892a0d31a4edb065c9fe6c11955c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Jjb7OtACSWIv3K2gmipC1gQ4/xrsQWx48TQ4tHqzf1k=</DigestValue></Reference></SignedInfo><SignatureValue>Ekj95geuS2ly0eji7tu0v3cJgJZgEEk5ampGjx/prVbUxK2pkCKXQpP/R0WlMkvwHWhxeO5oltMVyUkdGL1mzZiVagjQGCUc7pVKgc+M0+7tqihjHzgjqsT2/UdzeTRBelGCaYD2C0YXxY9xBbRnrHkV/T3wTITyt4RLeVwLOIk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q//zY+pw7zGgg0Vtgv5A8YHUDPZMoFwmAOxoHuCd+cvpPb405GAscCydCxcqnYdJPGJP0mn5zUeVO3XOXOjjZqoNtCG8HA6nxO1XQiQm6E5nRnUQI7Rvi0dX5PN3gvjm4jDtg5Rr0Z+7gcXP34PdUenM2R+8yA8QLCi0VY+2eKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="597fb37ab43834f1786c41ec1aff3804d6422a9aa0addc2f624902d03afb3626" Description="" Url=""><as:assemblyIdentity name="LanPlayGUI.exe" version="1.0.0.0" publicKeyToken="d891d82611b7cfde" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-SCT3V3K\devonly</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BLhMwV6w3RItaKFYchOnb6wbGfgRVgLvfiP5Q2FwSj0=</DigestValue></Reference></SignedInfo><SignatureValue>VlljihRINRdnQWBDSEN7SGCiqZIsUJx0AXQVNBJT61zkjOTNQ1onWbdDCBVw2R72ATrrRD65lnIfLnTT8E1gAs9pqixPJRDkYlGYtYzZUnAEcRWB1oLkd082P7PrFch7cgnu1rBHDXtHBjsLG40cx4VVznNaFBBRtj7+RjkLVj0=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q//zY+pw7zGgg0Vtgv5A8YHUDPZMoFwmAOxoHuCd+cvpPb405GAscCydCxcqnYdJPGJP0mn5zUeVO3XOXOjjZqoNtCG8HA6nxO1XQiQm6E5nRnUQI7Rvi0dX5PN3gvjm4jDtg5Rr0Z+7gcXP34PdUenM2R+8yA8QLCi0VY+2eKE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQWGlTtc3Cd6REKcKjuX5DPzANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAFMAQwBUADMAVgAzAEsAXABkAGUAdgBvAG4AbAB5MB4XDTIwMDcyNDA1NDYzMFoXDTIxMDcyNDExNDYzMFowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBTAEMAVAAzAFYAMwBLAFwAZABlAHYAbwBuAGwAeTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAq//zY+pw7zGgg0Vtgv5A8YHUDPZMoFwmAOxoHuCd+cvpPb405GAscCydCxcqnYdJPGJP0mn5zUeVO3XOXOjjZqoNtCG8HA6nxO1XQiQm6E5nRnUQI7Rvi0dX5PN3gvjm4jDtg5Rr0Z+7gcXP34PdUenM2R+8yA8QLCi0VY+2eKECAwEAATANBgkqhkiG9w0BAQsFAAOBgQCTd/2iHcxGRyTDZQOQs42hBmbG9TyHNTVsjR6snN3UQce9lNmZiFwlgEfBQHL7Hs8WZoz+yokbuBp873C0YzbYfx3XJmtjSIUV283PbmZpjrs+LLOo6ovLWe377mfy33pc4lfIeQS5rdPJ/yDCZvmMZqngxF2rpvj9lZbMt9FXgQ==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
