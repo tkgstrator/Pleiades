@@ -19,6 +19,13 @@
     </div>
     <div class="contents">
       <h1>
+        AltServer App
+      </h1>
+      <p>AltServer経由でインストールできるアプリです</p>
+        <h2><a href="altstore://install?url=https://github.com/tkgstrator/Pleiades/releases/download/IPAs/Twitter.8.44.1.Owl.1.5.ipa">Twitter Owl 8.44.1</a></h2>
+    </div>
+    <div class="contents">
+      <h1>
         <a href="https://tkgstrator.github.io/GilemmaGame/">ジレンマゲーム</a>
       </h1>
       <p>
