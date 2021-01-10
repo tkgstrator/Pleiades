@@ -22,7 +22,14 @@
         AltServer App
       </h1>
       <p>AltServer経由でインストールできるアプリです</p>
-        <h2><a href="altstore://install?url=https://github.com/tkgstrator/Pleiades/releases/download/IPAs/Twitter.8.44.1.Owl.1.5.ipa">Twitter Owl 8.44.1</a></h2>
+        <h2><a href="altstore://install?url=https://github.com/tkgstrator/Pleiades/releases/download/IPAs/Twitter.8.44.1.Owl.1.5.ipa">Twitter Owl v8.44.1</a></h2>
+        <p>広告非表示、動画保存、Face ID認証、確認ダイアログ表示</p>
+        <h2><a href="altstore://install?url=https://github.com/tkgstrator/Pleiades/releases/download/IPAs/TwitterPlus_v7.47_T1.2r-82.ipa">Twitter++ v7.47</a></h2>
+        <p>Youtube動画保存、デフォルトブラウザ設定、フルスクリーン、角煮ダイアログ表示、動画保存</p>
+        <h2><a href="altstore://install?url=https://github.com/tkgstrator/Pleiades/releases/download/IPAs/Twitch-plus-v1.1.ipa">Twitch++ v9.3.1</a></h2>
+        <p>動画保存、広告非表示</p>
+        <h2><a href="altstore://install?url=https://github.com/tkgstrator/Pleiades/releases/download/IPAs/YouTubePlus_v13.02.9_T1.4r-91.ipa">Youtube++ v13.15.7</a></h2>
+        <p>動画保存、広告ブロック、バックグラウンド再生、自動リピート、再生速度変更</p>
     </div>
     <div class="contents">
       <h1>
